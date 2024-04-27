@@ -1,0 +1,63 @@
+main {
+    box-sizing: border-box;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 350px 100%;
+    grid-row: 3;
+}
+
+main article {
+    width: 350px; /* La taille va changer en fonction de la taille d'écran */
+    height: 100%;
+    padding: 5px;
+    border-right: #eaeaea solid 1.5px;
+    border-bottom: #eaeaea solid 1.5px;
+}
+
+main article h1 {
+    color: white;
+    font-size: 18px;
+    width: 68px ;
+    height: 35px;
+    text-align: center;
+    margin-left: 5px;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.article_news h1{
+    background-color: #98DC62;
+}
+
+.article_team h1 {
+    background-color: #DC5E53;
+}
+
+.article_work h1 {
+    background-color: #0766F0;
+}
+
+main article div {
+    display: flex;
+    justify-items: start;
+    margin: 5px;
+}
+
+main article div img {
+    width: 40px;
+    height: 40px;
+    margin: auto;
+}
+
+main article div h3 {
+    text-transform: capitalize;
+    padding: 1rem;
+    color: grey;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+main article div h3 b {
+    color: black;
+}
+
